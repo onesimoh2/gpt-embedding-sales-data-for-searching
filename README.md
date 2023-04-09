@@ -54,7 +54,7 @@ e-	Call get_answer_from_query passing the JSON data and the user query.
 f-	Print the result obtained from GPT-4
 
 
-## Example
+## Examples
 
 ### Compare last purchase with the last trimester ones.
 
