@@ -26,10 +26,10 @@ Following there is a sample of the resulting Database:
 
 
     dates	        products	                               embeddings
-0	1/5/2015	{"1/5/2015": [{"product": "Superhero action ja...	0.0
-1	1/6/2015	{"1/6/2015": [{"product": "The Gu red shirt XM...	0.0
-2	1/8/2015	{"1/8/2015": [{"product": "The Gu red shirt XM...	0.0
-3	2/4/2015	{"2/4/2015": [{"product": "The Gu red shirt XM...	0.0
+0	1/5/2015	{"1/5/2015": [{"product": "Superhero action ja	0.0
+1	1/6/2015	{"1/6/2015": [{"product": "The Gu red shirt XM	0.0
+2	1/8/2015	{"1/8/2015": [{"product": "The Gu red shirt XM	0.0
+3	2/4/2015	{"2/4/2015": [{"product": "The Gu red shirt XM	0.0
 
 
 ## Generating Embeddings
