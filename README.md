@@ -22,14 +22,6 @@ By using this app, users can easily access and analyze the purchase data without
 The code contains a notebook called ‘PrepareData’; here we start reading the 'salesdata.csv' containing the purchase data for one customer by day with attributes: purchase date, product name, purchase amount and total price.
 
 This data is grouped by day and then each day is converted to JSON format, at the end, a new csv file will be exported (sales_data_emb.csv) that will constitute the central Database for the project.
-Following there is a sample of the resulting Database:
-
-
-    dates	        products	                               embeddings
-0	1/5/2015	{"1/5/2015": [{"product": "Superhero action ja	0.0
-1	1/6/2015	{"1/6/2015": [{"product": "The Gu red shirt XM	0.0
-2	1/8/2015	{"1/8/2015": [{"product": "The Gu red shirt XM	0.0
-3	2/4/2015	{"2/4/2015": [{"product": "The Gu red shirt XM	0.0
 
 
 ## Generating Embeddings
