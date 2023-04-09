@@ -4,7 +4,7 @@ One of the main advantages of using GPT-4 for querying a database is that it all
 
 Another advantage of using GPT-4 for querying a database is that it can help us identify patterns and trends in the data that may not be immediately apparent when using extensive reports or dashboards.
 
-Finally, using GPT-4 for querying a database can help bridge the gap between technical and non-technical stakeholders. By allowing anyone to ask questions about the data in natural language, we can make the information more accessible and easier to understand for non-technical stakeholders, such as executives or marketing teams.
+Finally, using GPT-4 for querying a database can help bridge the gap between technical and non-technical persons. By allowing anyone to ask questions about the data in natural language, we can make the information more accessible and easier to understand for non-technical stakeholders, such as executives or marketing teams.
 
 ## Description of the application
 
