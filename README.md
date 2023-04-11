@@ -120,7 +120,7 @@ Adding this context to the queries allows to answer questions that take into con
 Q: Tell me one of the products I bought last
 A: One of the products you bought last was "Tape dispenser (Black)" on 5/27/2016. You purchased 50 units at a price of $1600.
 
-Q: Tell me the other product I boght
+Q: Tell me the other product I bought.
 A: Another product you bought was "10 mm Double sided bubble wrap 20m" on 5/27/2016. You purchased 20 units at a price of $600.
 
 
