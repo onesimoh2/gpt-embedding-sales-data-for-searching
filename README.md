@@ -115,7 +115,7 @@ The most interesting thing here is how GPT-4 finds potentially related items bas
 ## Adding Context
 
 In the notebook called ‘QueryDataPlusCache’ a simple cache for the last ‘n’ question and answer is implemented. The content of the notebook is very similar to the one in ‘QueryData’ notebook except for a new class called ‘CacheStack’ and the fact that after the call to ‘dates_to_be_included_to_answer_the_query’ and ‘get_answer_from_query’ the questions and the answers are stored in the cache. Then this information is added as part of the prompt in both functions.
-Adding this context to the queries allow to answer questions that take into consideration the previous conversation, something that would not be possible without the cache as can be seen in the following example. 
+Adding this context to the queries allows to answer questions that take into consideration the flow of the conversation, something that would not be possible without the cache as can be seen in the following example. 
 
 Q: Tell me one of the products I bought last
 A: One of the products you bought last was "Tape dispenser (Black)" on 5/27/2016. You purchased 50 units at a price of $1600.
