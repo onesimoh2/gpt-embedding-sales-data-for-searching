@@ -112,13 +112,24 @@ In this second query GPT-4 cannot determine a date so it will respond with the d
 
 The most interesting thing here is how GPT-4 finds potentially related items based in its own knowledge because there is no indication in the Database of wich products might be similar to others.
 
+## Adding Context
+
+In the notebook called ‘QueryDataPlusCache’ a simple cache for the last ‘n’ question and answer is implemented. The content of the notebook is very similar to the one in ‘QueryData’ notebook except for a new class called ‘CacheStack’ and the fact that after the call to ‘dates_to_be_included_to_answer_the_query’ and ‘get_answer_from_query’ the questions and the answers are stored in the cache. Then this information is added as part of the prompt in both functions.
+Adding this context to the queries allow to answer questions that take into consideration the previous conversation, something that would not be possible without the cache as can be seen in the following example. 
+
+Q: Tell me one of the products I bought last
+A: One of the products you bought last was "Tape dispenser (Black)" on 5/27/2016. You purchased 50 units at a price of $1600.
+
+Q: Tell me the other product I boght
+A: Another product you bought was "10 mm Double sided bubble wrap 20m" on 5/27/2016. You purchased 20 units at a price of $600.
+
+
 ## Conclusions
 
 GPT-4 opens a new paradigm for application development in which you combine natural language descriptions with actions that will be driven by the results obtained from the language model. In this case we query the model first to cancel inappropriate questions and then to find the potential purchase dates involved in the user query. As the result of both request certain action are then executed, in the first case if the query is not an appropriate one then that query is not executed and in the second the dates range obtained will be used to search the database.
 
 This opens a wide range of new possibilities of chaining natural language requests with program executions until a final result is obtained.
 
-One thing that is needed is to incorporate a caching of the last ‘n’ queries and answer to maintain a context of the conversation.
 
 
 
